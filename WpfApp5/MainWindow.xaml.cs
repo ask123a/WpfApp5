@@ -20,5 +20,11 @@ namespace WpfApp5
         {
             InitializeComponent();
         }
+
+        private void OpenButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 Window2 = new Window2();
+            Window2.Show();
+        }
     }
 }

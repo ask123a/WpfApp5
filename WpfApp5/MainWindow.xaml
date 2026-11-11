@@ -6,8 +6,8 @@
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:local="clr-namespace:WpfApp5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="WPF小作家" Height="450" Width="800">
     <Grid>
-
+        <Button x:Name="OpenButton" Content="開啟新文件" HorizontalAlignment="Left" Margin="279,122,0,0" VerticalAlignment="Top" Height="95" Width="213" FontSize="22" Click="OpenButton_Click"/>
     </Grid>
 </Window>
